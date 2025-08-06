@@ -5,6 +5,13 @@ body {
   color: #23272f;
 }
 
+#projecttitle{
+  font-family: "Mozilla Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Layout */
 .dtb-main {
   display: flex;
