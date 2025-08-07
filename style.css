@@ -1,7 +1,7 @@
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
   margin: 0;
-  background: #f9f9f9;
+  background: #0a0a0a;
   color: #23272f;
 }
 
@@ -18,8 +18,8 @@ body {
 
 /* Header */
 .dtb-header {
-  background: #fff;
-  border-bottom: 1.5px solid #e5e7eb;
+  background: #060606;
+  border-bottom: 1.5px solid #161617;
   box-shadow: 0 2px 8px rgba(0,0,0,0.03);
   padding: 2.5rem 1rem 1.5rem 1rem;
   text-align: center;
@@ -31,13 +31,13 @@ body {
 .dtb-title {
   font-size: 2.7rem;
   font-weight: 800;
-  color: #0078D4;
+  color: #c50c0c;
   margin: 0 0 0.3rem 0;
   letter-spacing: -1px;
 }
 .dtb-subtitle {
   font-size: 1.2rem;
-  color: #6B46C1;
+  color: #b19fda;
   margin: 0;
   font-weight: 500;
   letter-spacing: 0.5px;
@@ -48,7 +48,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   background: #fff;
-  border-bottom: 2px solid #e5e7eb;
+  border-bottom: 2px solid #b0b1b5;
   padding: 0.5rem 1rem 0 1rem;
   gap: 0.5rem;
   justify-content: center;
@@ -57,7 +57,7 @@ body {
   z-index: 10;
 }
 .dtb-tabs button {
-  background: #f3f6fa;
+  background: #b7b8ba;
   color: #23272f;
   border: none;
   border-radius: 18px 18px 0 0;
@@ -71,7 +71,7 @@ body {
   outline: none;
 }
 .dtb-tabs button.active {
-  background: #0078D4;
+  background: #be1616;
   color: #fff;
   font-weight: 700;
   box-shadow: 0 4px 16px rgba(0,120,212,0.10);
@@ -89,7 +89,7 @@ body {
   margin-bottom: 1rem;
 }
 .tool-card {
-  background: #fff;
+  background: #e5e2e2;
   border-radius: 18px;
   box-shadow: 0 2px 12px rgba(0,120,212,0.06);
   padding: 1.3rem 1.1rem 1.1rem 1.1rem;
@@ -147,7 +147,7 @@ body {
 .dtb-tool-details h4 {
   margin-bottom: 0.3rem;
   margin-top: 1.1rem;
-  color: #0078D4;
+  color: #e11d1d;
   font-size: 1.05rem;
 }
 .dtb-tool-details pre {
@@ -159,7 +159,7 @@ body {
   margin: 0 0 0.7rem 0;
 }
 .dtb-tool-details a {
-  color: #0078D4;
+  color: #d40000;
   text-decoration: underline;
   word-break: break-all;
 }
@@ -196,7 +196,7 @@ body {
   opacity: 0;
 }
 .dtb-about-section h2, .dtb-roadmaps-section h2 {
-  color: #0078D4;
+  color: #d40000;
   margin-top: 0;
 }
 .dtb-about-section h3 {
