@@ -2,7 +2,7 @@ body {
   font-family: 'Segoe UI', Arial, sans-serif;
   margin: 0;
   background: #0a0a0a;
-  color: #23272f;
+  color: #e4e4e7;
 }
 
 /* Layout */
@@ -18,9 +18,9 @@ body {
 
 /* Header */
 .dtb-header {
-  background: #060606;
-  border-bottom: 1.5px solid #161617;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  background: #0f0f0f;
+  border-bottom: 1.5px solid #2a2a2a;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
   padding: 2.5rem 1rem 1.5rem 1rem;
   text-align: center;
 }
@@ -31,13 +31,13 @@ body {
 .dtb-title {
   font-size: 2.7rem;
   font-weight: 800;
-  color: #c50c0c;
+  color: #ff4757;
   margin: 0 0 0.3rem 0;
   letter-spacing: -1px;
 }
 .dtb-subtitle {
   font-size: 1.2rem;
-  color: #b19fda;
+  color: #a8a5ff;
   margin: 0;
   font-weight: 500;
   letter-spacing: 0.5px;
@@ -47,8 +47,8 @@ body {
 .dtb-tabs {
   display: flex;
   flex-wrap: wrap;
-  background: #fff;
-  border-bottom: 2px solid #b0b1b5;
+  background: #1a1a1a;
+  border-bottom: 2px solid #3a3a3a;
   padding: 0.5rem 1rem 0 1rem;
   gap: 0.5rem;
   justify-content: center;
@@ -57,8 +57,8 @@ body {
   z-index: 10;
 }
 .dtb-tabs button {
-  background: #b7b8ba;
-  color: #23272f;
+  background: #404040;
+  color: #e4e4e7;
   border: none;
   border-radius: 18px 18px 0 0;
   padding: 0.6rem 1.6rem;
@@ -67,17 +67,17 @@ body {
   font-weight: 500;
   margin-bottom: -2px;
   transition: background 0.25s, color 0.25s, box-shadow 0.25s;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
   outline: none;
 }
 .dtb-tabs button.active {
-  background: #be1616;
+  background: #ff4757;
   color: #fff;
   font-weight: 700;
-  box-shadow: 0 4px 16px rgba(0,120,212,0.10);
+  box-shadow: 0 4px 16px rgba(255,71,87,0.3);
 }
 .dtb-tabs button:focus {
-  outline: 2px solid #6B46C1;
+  outline: 2px solid #a8a5ff;
 }
 
 /* Tool Cards */
@@ -89,9 +89,9 @@ body {
   margin-bottom: 1rem;
 }
 .tool-card {
-  background: #e5e2e2;
+  background: #1e1e1e;
   border-radius: 18px;
-  box-shadow: 0 2px 12px rgba(0,120,212,0.06);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.4);
   padding: 1.3rem 1.1rem 1.1rem 1.1rem;
   cursor: pointer;
   border: 2px solid transparent;
@@ -102,35 +102,35 @@ body {
   justify-content: flex-start;
 }
 .tool-card:hover, .tool-card:focus {
-  box-shadow: 0 6px 24px rgba(107,70,193,0.13);
-  border-color: #6B46C1;
+  box-shadow: 0 6px 24px rgba(168,165,255,0.3);
+  border-color: #a8a5ff;
   transform: translateY(-3px) scale(1.025);
 }
 .tool-card h3 {
   margin: 0 0 0.5rem 0;
   font-size: 1.15rem;
-  color: #0078D4;
+  color: #5dade2;
   font-weight: 700;
 }
 .tool-card p {
   margin: 0;
-  color: #555;
+  color: #b0b0b0;
   font-size: 1.01rem;
 }
 
 /* Tool Details */
 .dtb-tool-details {
   flex: 1 1 320px;
-  background: #fff;
+  background: #1e1e1e;
   border-radius: 18px;
-  box-shadow: 0 2px 12px rgba(107,70,193,0.07);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.4);
   padding: 2rem 1.3rem 1.3rem 1.3rem;
   min-width: 280px;
   max-width: 370px;
   position: sticky;
   top: 2.5rem;
   align-self: flex-start;
-  border: 1.5px solid #e5e7eb;
+  border: 1.5px solid #3a3a3a;
   transition: box-shadow 0.25s, border-color 0.22s, opacity 0.22s;
   opacity: 1;
   z-index: 2;
@@ -142,24 +142,26 @@ body {
 .dtb-tool-details h2 {
   margin-top: 0;
   font-size: 1.3rem;
-  color: #6B46C1;
+  color: #a8a5ff;
 }
 .dtb-tool-details h4 {
   margin-bottom: 0.3rem;
   margin-top: 1.1rem;
-  color: #e11d1d;
+  color: #ff6b6b;
   font-size: 1.05rem;
 }
 .dtb-tool-details pre {
-  background: #f3f6fa;
+  background: #0f0f0f;
   padding: 0.7rem 1rem;
   border-radius: 6px;
   overflow-x: auto;
   font-size: 0.99rem;
   margin: 0 0 0.7rem 0;
+  border: 1px solid #3a3a3a;
+  color: #e4e4e7;
 }
 .dtb-tool-details a {
-  color: #d40000;
+  color: #ff6b6b;
   text-decoration: underline;
   word-break: break-all;
 }
@@ -170,24 +172,24 @@ body {
 .dtb-tool-details button {
   background: none;
   border: none;
-  color: #6B46C1;
+  color: #a8a5ff;
   font-size: 1.5em;
   cursor: pointer;
   transition: color 0.2s;
 }
 .dtb-tool-details button:hover {
-  color: #0078D4;
+  color: #5dade2;
 }
 
 /* About & Roadmaps Sections */
 .dtb-about-section, .dtb-roadmaps-section {
-  background: #fff;
+  background: #1e1e1e;
   border-radius: 18px;
-  box-shadow: 0 2px 12px rgba(0,120,212,0.06);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.4);
   padding: 2rem 1.3rem 1.3rem 1.3rem;
   margin: 0 auto;
   max-width: 700px;
-  border: 1.5px solid #e5e7eb;
+  border: 1.5px solid #3a3a3a;
   transition: box-shadow 0.25s, border-color 0.22s, opacity 0.22s;
   opacity: 1;
 }
@@ -196,17 +198,17 @@ body {
   opacity: 0;
 }
 .dtb-about-section h2, .dtb-roadmaps-section h2 {
-  color: #d40000;
+  color: #ff6b6b;
   margin-top: 0;
 }
 .dtb-about-section h3 {
-  color: #6B46C1;
+  color: #a8a5ff;
 }
 .dtb-about-section ul {
   padding-left: 1.2em;
 }
 .dtb-roadmaps-section h3 {
-  color: #6B46C1;
+  color: #a8a5ff;
   margin-bottom: 0.3em;
 }
 .roadmap-category ul {
