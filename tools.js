@@ -298,5 +298,97 @@ const TOOL_CATEGORIES = [
         docs: "https://swagger.io/docs/"
       }
     ]
+  },
+  {
+    name: "Testing",
+    tools: [
+      {
+        name: "Jest",
+        description: "Delightful JavaScript testing framework.",
+        install: "npm install --save-dev jest",
+        syntax: "jest",
+        docs: "https://jestjs.io/docs/getting-started"
+      },
+      {
+        name: "Mocha",
+        description: "Feature-rich JavaScript test framework.",
+        install: "npm install --save-dev mocha",
+        syntax: "mocha",
+        docs: "https://mochajs.org/#getting-started"
+      },
+      {
+        name: "Cypress",
+        description: "End-to-end testing framework for web applications.",
+        install: "npm install cypress --save-dev",
+        syntax: "npx cypress open",
+        docs: "https://docs.cypress.io/"
+      },
+      {
+        name: "Selenium",
+        description: "Automated testing suite for web applications.",
+        install: "https://www.selenium.dev/downloads/",
+        syntax: "// Varies by language and setup",
+        docs: "https://www.selenium.dev/documentation/"
+      },
+      {
+        name: "JUnit",
+        description: "A simple framework to write repeatable tests in Java.",
+        install: "Add as a dependency in your build tool (e.g., Maven, Gradle)",
+        syntax: "// Write test methods with @Test annotation",
+        docs: "https://junit.org/junit5/docs/current/user-guide/"
+      }
+    ]
+  },
+  {
+    name: "Deployment/CI/CD",
+    tools: [
+      {
+        name: "Docker",
+        description: "Platform for building, sharing, and running applications in containers.",
+        install: "https://www.docker.com/products/docker-desktop/",
+        syntax: "docker build -t my-image .\ndocker run my-image",
+        docs: "https://docs.docker.com/"
+      },
+      {
+        name: "Jenkins",
+        description: "Automation server for building, testing, and deploying software.",
+        install: "https://www.jenkins.io/download/",
+        syntax: "// Configure jobs via the web interface",
+        docs: "https://www.jenkins.io/doc/"
+      },
+      {
+        name: "GitLab CI/CD",
+        description: "Integrated CI/CD in GitLab.",
+        install: "Included with GitLab",
+        syntax: "// Define pipelines in .gitlab-ci.yml",
+        docs: "https://docs.gitlab.com/ee/ci/"
+      },
+      {
+        name: "GitHub Actions",
+        description: "Automate, customize, and execute your software development workflows right in your repository.",
+        install: "Included with GitHub",
+        syntax: "// Define workflows in .github/workflows/*.yml",
+        docs: "https://docs.github.com/en/actions"
+      },
+      {
+        name: "CircleCI",
+        description: "Cloud-based CI/CD platform.",
+        install: "https://circleci.com/setup/",
+        syntax: "// Define workflows in .circleci/config.yml",
+        docs: "https://circleci.com/docs/"
+      }
+    ]
+  },
+  {
+    name: "Database Tools",
+    tools: [
+      {
+        name: "DBeaver",
+        description: "Free universal database tool.",
+        install: "https://dbeaver.io/download/",
+        syntax: "// Use the GUI for database interaction",
+        docs: "https://github.com/dbeaver/dbeaver/wiki"
+      }
+    ]
   }
 ];
